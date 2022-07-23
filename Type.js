@@ -283,7 +283,7 @@ const endPlay = () => {
 
   let speed = Math.round((wordCount / totalTime) * 60);
 
-   finalMsg = "You speed is " + speed + " words per minutes";
+   finalMsg = "Your speed is " + speed + " characters per minutes";
 
   finalMsg += compareWords(msg.innerText, totalStr);
   }
